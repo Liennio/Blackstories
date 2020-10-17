@@ -94,7 +94,6 @@ a:hover {
 .Rules {
  background-color:#db0e32;
  color: black;
- text-align: center;
 
  display: flex; 
  flex-direction: column;
@@ -105,9 +104,9 @@ a:hover {
  
  height: auto;
  width: 320px;
-
  text-align: center;
- padding: 5px;
+
+ padding: 5px 15px;
  margin: auto; 
  margin-top: 40px;
 
@@ -134,7 +133,13 @@ a:hover {
     margin: auto; 
     margin-top: 40px;
     margin-block-end: 40px;
+}
 
+.BlackStories strong {
+    display: block;
+    margin: 0 auto 15px;
+    font-size: 14px;
+    max-width: 200px;
 }
 
 .container {
